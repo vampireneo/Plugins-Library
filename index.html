@@ -27,28 +27,28 @@
       <div class="fs-display-2">Plugins Library</div>
       <div ng-controller="pluginsLibController">
       <div class="checkbox">
-        <input type="checkbox" id="checkboxApp" class="checkbox__input" ng-model="isAndroid">
-        <label for="checkboxApp" class="checkbox__label">Android</label>
+        <input type="checkbox" id="checkboxAndroid" class="checkbox__input" ng-model="isAndroid">
+        <label for="checkboxAndroid" class="checkbox__label">Android</label>
       </div>
       <div class="checkbox">
-        <input type="checkbox" id="checkboxTest" class="checkbox__input" ng-model="isImage">
-        <label for="checkboxTest" class="checkbox__label">Image</label>
+        <input type="checkbox" id="checkboxImage" class="checkbox__input" ng-model="isImage">
+        <label for="checkboxImage" class="checkbox__label">Image</label>
       </div>
       <div class="checkbox">
-        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isScroll">
-        <label for="checkboxWeb" class="checkbox__label">Scroll</label>
+        <input type="checkbox" id="checkboxScroll" class="checkbox__input" ng-model="isScroll">
+        <label for="checkboxScroll" class="checkbox__label">Scroll</label>
       </div>
       <div class="checkbox">
         <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isWeb">
         <label for="checkboxWeb" class="checkbox__label">Web</label>
       </div>
       <div class="checkbox">
-        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isDotNet">
-        <label for="checkboxWeb" class="checkbox__label">.Net</label>
+        <input type="checkbox" id="checkboxDotNet" class="checkbox__input" ng-model="isDotNet">
+        <label for="checkboxDotNet" class="checkbox__label">.Net</label>
       </div>
       <div class="checkbox">
-        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isMobile">
-        <label for="checkboxWeb" class="checkbox__label">Mobile</label>
+        <input type="checkbox" id="checkboxMobile" class="checkbox__input" ng-model="isMobile">
+        <label for="checkboxMobile" class="checkbox__label">Mobile</label>
       </div>
       <ul class="list mt++">
             <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter">
