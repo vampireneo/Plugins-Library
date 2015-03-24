@@ -1,8 +1,8 @@
 [
 	{ "name": "glide", "url": "https://github.com/bumptech/glide", "desc": "An image loading and caching library for Android focused on smooth scrolling", "category": ["android", "image"]},
-	{ "name": "React.NET", "url": "https://github.com/reactjs/React.NET", "desc": ".NET library for JSX compilation and server-side rendering of React components", "category": [".net", "web"]}
-	{ "name": "smooth-scroll", "url": "https://github.com/cferdinandi/smooth-scroll", "desc": "A simple vanilla JS script to animate scrolling to anchor links.", "category": ["scroll", "web"]}
-	{ "name": "ScrollMagic", "url": "https://github.com/janpaepke/ScrollMagic", "desc": "The javascript library for magical scroll interactions.", "category": ["scroll", "web"]}
+	{ "name": "React.NET", "url": "https://github.com/reactjs/React.NET", "desc": ".NET library for JSX compilation and server-side rendering of React components", "category": [".net", "web"]},
+	{ "name": "smooth-scroll", "url": "https://github.com/cferdinandi/smooth-scroll", "desc": "A simple vanilla JS script to animate scrolling to anchor links.", "category": ["scroll", "web"]},
+	{ "name": "ScrollMagic", "url": "https://github.com/janpaepke/ScrollMagic", "desc": "The javascript library for magical scroll interactions.", "category": ["scroll", "web"]},
 	{ "name": "CastCompanionLibrary-android", "url": "https://github.com/googlecast/CastCompanionLibrary-android", "desc": "CastCompanionLibrary-android is a library project to enable developers integrate Cast capabilities into their applications faster and easier.", "category": ["android"]},
 	{ "name": "parallax", "url": "https://github.com/wagerfield/parallax", "desc": "Parallax Engine that reacts to the orientation of a smart device", "category": ["web", "mobile"]},
 	{ "name": "odometer", "url": "https://github.com/HubSpot/odometer", "desc": "Smoothly transitions numbers with ease.", "category": ["web"]},
