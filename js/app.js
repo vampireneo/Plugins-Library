@@ -2,25 +2,28 @@ var app = angular.module('pluginsLibApp', ['lumx']);
 
 app.controller("pluginsLibController", ['$scope', '$http', function($scope, $http) {
 	$scope.plugins = [];
-
-	$scope.isAndroid = true;
-	$scope.isImage = true;
-	$scope.isScroll = true;
-	$scope.isWeb = true;
-	$scope.isDotNet = true;
-	$scope.isMobile = true;
+	$scope.filters = [];
 
 	$scope.updateFilter = function(value, index) {
-		if ($scope.isAndroid && jQuery.inArray("android", value.category) >= 0) return true;
-		if ($scope.isImage && jQuery.inArray("image", value.category) >= 0) return true;
-		if ($scope.isScroll && jQuery.inArray("scroll", value.category) >= 0) return true;
-		if ($scope.isWeb && jQuery.inArray("web", value.category) >= 0) return true;
-		if ($scope.isDotNet && jQuery.inArray(".net", value.category) >= 0) return true;
-		if ($scope.isMobile && jQuery.inArray("mobile", value.category) >= 0) return true;
+		for (var i = $scope.filters.length - 1; i >= 0; i--) {
+			if ($scope.filters[i].show && $.inArray($scope.filters[i].name, value.category) >= 0) return true;
+		};
 		return false;
 	}
 
 	$http.get("data.json").success(function(data) {
 		$scope.plugins = data;
+		var filters = [];
+		for (var i = data.length - 1; i >= 0; i--) {
+			for (var j = data[i].category.length - 1; j >= 0; j--) {
+				if($.inArray(data[i].category[j], filters) < 0)
+					filters.push(data[i].category[j]);
+			};
+		};
+		for (var i = filters.length - 1; i >= 0; i--) {
+			filters[i] = {name: filters[i], id: i, show: false};
+		};
+		$scope.filters = filters;
 	})
 }]);
+

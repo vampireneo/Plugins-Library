@@ -26,32 +26,14 @@
     <div class="card">
       <div class="fs-display-2">Plugins Library</div>
       <div ng-controller="pluginsLibController">
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxAndroid" class="checkbox__input" ng-model="isAndroid">
-        <label for="checkboxAndroid" class="checkbox__label">Android</label>
-      </div>
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxImage" class="checkbox__input" ng-model="isImage">
-        <label for="checkboxImage" class="checkbox__label">Image</label>
-      </div>
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxScroll" class="checkbox__input" ng-model="isScroll">
-        <label for="checkboxScroll" class="checkbox__label">Scroll</label>
-      </div>
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isWeb">
-        <label for="checkboxWeb" class="checkbox__label">Web</label>
-      </div>
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxDotNet" class="checkbox__input" ng-model="isDotNet">
-        <label for="checkboxDotNet" class="checkbox__label">.Net</label>
-      </div>
-      <div class="checkbox">
-        <input type="checkbox" id="checkboxMobile" class="checkbox__input" ng-model="isMobile">
-        <label for="checkboxMobile" class="checkbox__label">Mobile</label>
+      <div ng-repeat="filter in filters | orderBy:'name'">
+        <div class="checkbox">
+          <input type="checkbox" id="checkboxFilter{{filter.id}}" class="checkbox__input" ng-model="filter.show">
+          <label for="checkboxFilter{{filter.id}}" class="checkbox__label" ng-bind="filter.name"></label>
+        </div>
       </div>
       <ul class="list mt++">
-            <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter">
+            <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter | orderBy:'name'">
                 <div class="list-row__content">
                     <span class="display-block"><a href="{{plugin.url}}" ng-bind="plugin.name" target="_blank"></a></span>
                     <span class="display-block fs-body-1 tc-black-2"><div ng-bind="plugin.desc"></div><span ng-bind="plugin.category"></span></span>
