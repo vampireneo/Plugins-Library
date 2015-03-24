@@ -27,16 +27,28 @@
       <div class="fs-display-2">Plugins Library</div>
       <div ng-controller="pluginsLibController">
       <div class="checkbox">
-        <input type="checkbox" id="checkboxApp" class="checkbox__input" ng-model="isApp">
-        <label for="checkboxApp" class="checkbox__label">App</label>
+        <input type="checkbox" id="checkboxApp" class="checkbox__input" ng-model="isAndroid">
+        <label for="checkboxApp" class="checkbox__label">Android</label>
       </div>
       <div class="checkbox">
-        <input type="checkbox" id="checkboxTest" class="checkbox__input" ng-model="isTest">
-        <label for="checkboxTest" class="checkbox__label">Test</label>
+        <input type="checkbox" id="checkboxTest" class="checkbox__input" ng-model="isImage">
+        <label for="checkboxTest" class="checkbox__label">Image</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isScroll">
+        <label for="checkboxWeb" class="checkbox__label">Scroll</label>
       </div>
       <div class="checkbox">
         <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isWeb">
         <label for="checkboxWeb" class="checkbox__label">Web</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isDotNet">
+        <label for="checkboxWeb" class="checkbox__label">.Net</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isMobile">
+        <label for="checkboxWeb" class="checkbox__label">Mobile</label>
       </div>
       <ul class="list mt++">
             <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter">
