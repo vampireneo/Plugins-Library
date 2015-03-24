@@ -1,0 +1,20 @@
+{
+  "name": "PluginsLibrary",
+  "version": "1.0.0",
+  "description": "A library for plugins that is useful for my development",
+  "main": "index.html",
+  "dependencies": {
+    "gulp-connect": "^2.2.0",
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-watch": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neo Choi",
+  "license": "ISC"
+}
