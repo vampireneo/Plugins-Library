@@ -1,10 +1,140 @@
 [
-	{ "name": "glide", "url": "https://github.com/bumptech/glide", "desc": "An image loading and caching library for Android focused on smooth scrolling", "category": ["android", "image"]},
-	{ "name": "React.NET", "url": "https://github.com/reactjs/React.NET", "desc": ".NET library for JSX compilation and server-side rendering of React components", "category": [".net", "web"]},
-	{ "name": "smooth-scroll", "url": "https://github.com/cferdinandi/smooth-scroll", "desc": "A simple vanilla JS script to animate scrolling to anchor links.", "category": ["scroll", "web"]},
-	{ "name": "ScrollMagic", "url": "https://github.com/janpaepke/ScrollMagic", "desc": "The javascript library for magical scroll interactions.", "category": ["scroll", "web"]},
-	{ "name": "CastCompanionLibrary-android", "url": "https://github.com/googlecast/CastCompanionLibrary-android", "desc": "CastCompanionLibrary-android is a library project to enable developers integrate Cast capabilities into their applications faster and easier.", "category": ["android"]},
-	{ "name": "parallax", "url": "https://github.com/wagerfield/parallax", "desc": "Parallax Engine that reacts to the orientation of a smart device", "category": ["web", "mobile"]},
-	{ "name": "odometer", "url": "https://github.com/HubSpot/odometer", "desc": "Smoothly transitions numbers with ease.", "category": ["web"]},
-	{ "name": "shake.js", "url": "https://github.com/alexgibson/shake.js", "desc": "A custom 'shake' event plugin for mobile web browsers using device accelerometer.", "category": ["web", "mobile"]}
+   {
+      "name":"Stampsy",
+      "url":"http://stampsy.com/",
+      "desc":"Stampsy helps you create beautiful photo stories, mood boards, visual essays and much more",
+      "category":["scroll","image"]
+   },
+   {
+      "name":"glide",
+      "url":"https://github.com/bumptech/glide",
+      "desc":"An image loading and caching library for Android focused on smooth scrolling",
+      "category":["android","image"]
+   },
+   {
+      "name":"AngularJS",
+      "url":"https://angularjs.org/",
+      "desc":"AngularJS is a toolset for building the framework most suited to your application development",
+      "category":["web","framework", "angularjs"]
+   },
+   {
+      "name":"Bacon.js",
+      "url":"http://baconjs.github.io/",
+      "desc":"A small functional reactive programming lib for JavaScript",
+      "category":["reactive programming"]
+   },
+   {
+      "name":"RxJS",
+      "url":"http://reactive-extensions.github.io/RxJS/",
+      "desc":"The RxJS is a set of libraries for composing asynchronous and event-based programs using observable sequences and fluent query operators modeled after LINQ",
+      "category":["reactive programming"]
+   },
+   {
+      "name":"Bootstrap",
+      "url":"http://getbootstrap.com/",
+      "desc":"Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web",
+      "category":["framework", "web", "responsive"]
+   },
+   {
+      "name":"jQuery",
+      "url":"http://jquery.com/",
+      "desc":"jQuery is a fast, small, and feature-rich JavaScript library",
+      "category":["library", "web"]
+   },
+   {
+      "name":"D3.js",
+      "url":"http://d3js.org/",
+      "desc":"A JavaScript library for manipulating documents based on data",
+      "category":["chart"]
+   },
+   {
+      "name":"C3.js",
+      "url":"http://c3js.org/",
+      "desc":"D3-based reusable chart library",
+      "category":["chart"]
+   },
+   {
+      "name":"Epoch",
+      "url":"http://fastly.github.io/epoch/",
+      "desc":"A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations",
+      "category":["chart", "real-time"]
+   },
+   {
+      "name":"Ng-Epoch",
+      "url":"http://dainbrump.github.io/ng-epoch/",
+      "desc":"A set of directives wrapping the Epoch jQuery plugin. Install the directive and plugin, place a tag in your HTML, and feed it data",
+      "category":["chart", "real-time", "angularjs"]
+   },
+   {
+      "name":"NativeScript",
+      "url":"https://www.nativescript.org/",
+      "desc":"NativeScript enables developers to build native apps for iOS, Android and Windows Universal while sharing the application code across the platforms",
+      "category":["native", "app"]
+   },
+   {
+      "name":"n3-pie-chart",
+      "url":"http://n3-charts.github.io/pie-chart/",
+      "desc":"Built on top of D3.js and AngularJS, n3-charts.pie-chart directive creates beautiful pie charts, donut charts and gauges in AngularJS applications",
+      "category":["chart", "angularjs"]
+   },
+   {
+      "name":"n3-line-chart",
+      "url":"http://n3-charts.github.io/line-chart/",
+      "desc":"Built on top of D3.js and AngularJS, n3-line-chart creates beautiful charts in AngularJS applications",
+      "category":["chart", "angularjs"]
+   },
+   {
+      "name":"React.NET",
+      "url":"http://reactjs.net/",
+      "desc":".NET library for JSX compilation and server-side rendering of React components",
+      "category":[".net","web"]
+   },
+   {
+      "name":"SignalR",
+      "url":"http://signalr.net/",
+      "desc":"ASP.NET SignalR is a new library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications",
+      "category":[".net","web", "real-time"]
+   },
+   {
+      "name":"smooth-scroll",
+      "url":"https://github.com/cferdinandi/smooth-scroll",
+      "desc":"A simple vanilla JS script to animate scrolling to anchor links.",
+      "category":["scroll","web"]
+   },
+   {
+      "name":"ScrollMagic",
+      "url":"http://janpaepke.github.io/ScrollMagic/",
+      "desc":"The javascript library for magical scroll interactions.",
+      "category":["scroll","web"]
+   },
+   {
+      "name":"CastCompanionLibrary-android",
+      "url":"https://github.com/googlecast/CastCompanionLibrary-android",
+      "desc":"CastCompanionLibrary-android is a library project to enable developers integrate Cast capabilities into their applications faster and easier.",
+      "category":["android"]
+   },
+   {
+      "name":"parallax",
+      "url":"http://matthew.wagerfield.com/parallax/",
+      "desc":"Parallax Engine that reacts to the orientation of a smart device",
+      "category":["web","mobile"]
+   },
+   {
+      "name":"odometer",
+      "url":"http://github.hubspot.com/odometer/docs/welcome/",
+      "desc":"Smoothly transitions numbers with ease.",
+      "category":["web"]
+   },
+   {
+      "name":"shake.js",
+      "url":"http://alxgbsn.co.uk/shake.js/",
+      "desc":"A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
+      "category":["web","mobile"]
+   },
+   {
+      "name":"lumX",
+      "url":"http://ui.lumapps.com/",
+      "desc":"The first responsive front-end framework based on AngularJS & Google Material Design specifications.",
+      "category":["web","responsive", "framework"]
+   }
 ]

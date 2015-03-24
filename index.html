@@ -26,13 +26,13 @@
     <div class="card">
       <div class="fs-display-2">Plugins Library</div>
       <div ng-controller="pluginsLibController">
-      <div ng-repeat="filter in filters | orderBy:'name'">
-        <div class="checkbox">
-          <input type="checkbox" id="checkboxFilter{{filter.id}}" class="checkbox__input" ng-model="filter.show">
-          <label for="checkboxFilter{{filter.id}}" class="checkbox__label" ng-bind="filter.name"></label>
+        <div flex-container="row" flex-wrap="wrap">
+          <div class="checkbox" flex-item="2" ng-repeat="filter in filters | orderBy:'name'">
+            <input type="checkbox" id="checkboxFilter{{filter.id}}" class="checkbox__input" ng-model="filter.show">
+            <label for="checkboxFilter{{filter.id}}" class="checkbox__label" ng-bind="filter.name"></label>
+          </div>
         </div>
-      </div>
-      <ul class="list mt++">
+        <ul class="list mt++">
             <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter | orderBy:'name'">
                 <div class="list-row__content">
                     <span class="display-block"><a href="{{plugin.url}}" ng-bind="plugin.name" target="_blank"></a></span>
