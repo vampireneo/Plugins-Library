@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="pluginsLibApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="icon" sizes="192x192" href="icon_192x192.png">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#25b7d3">
+    <title>Plugins Library</title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bower_components/lumx/dist/lumx.css">
+    <link rel="stylesheet" href="bower_components/mdi/css/materialdesignicons.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="style/main.css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="fs-display-2">Plugins Library</div>
+      <div ng-controller="pluginsLibController">
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxApp" class="checkbox__input" ng-model="isApp">
+        <label for="checkboxApp" class="checkbox__label">App</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxTest" class="checkbox__input" ng-model="isTest">
+        <label for="checkboxTest" class="checkbox__label">Test</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="checkboxWeb" class="checkbox__input" ng-model="isWeb">
+        <label for="checkboxWeb" class="checkbox__label">Web</label>
+      </div>
+      <ul class="list mt++">
+            <li class="list-row list-row--multi-line" ng-repeat="plugin in plugins | filter:updateFilter">
+                <div class="list-row__content">
+                    <span class="display-block"><a href="{{plugin.url}}" ng-bind="plugin.name" target="_blank"></a></span>
+                    <span class="display-block fs-body-1 tc-black-2"><div ng-bind="plugin.desc"></div><span ng-bind="plugin.category"></span></span>
+                </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/velocity/velocity.js"></script>
+    <script src="bower_components/moment/min/moment-with-locales.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/lumx/dist/lumx.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
