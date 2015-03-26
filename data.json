@@ -12,6 +12,18 @@
       "category":["android","image"]
    },
    {
+      "name":"reapp",
+      "url":"http://reapp.io/",
+      "desc":"An easier, faster way to build apps with React and JavaScript",
+      "category":["app","react","web"]
+   },
+   {
+      "name":"React",
+      "url":"http://facebook.github.io/react/",
+      "desc":"A JavaScript library for building user interfaces",
+      "category":["library","react","ui","web"]
+   },
+   {
       "name":"AngularJS",
       "url":"https://angularjs.org/",
       "desc":"AngularJS is a toolset for building the framework most suited to your application development",
@@ -135,6 +147,6 @@
       "name":"lumX",
       "url":"http://ui.lumapps.com/",
       "desc":"The first responsive front-end framework based on AngularJS & Google Material Design specifications.",
-      "category":["web","responsive", "framework"]
+      "category":["web","responsive", "framework","angularjs","ui"]
    }
 ]
