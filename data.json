@@ -18,10 +18,40 @@
       "category":["web scraper","node.js"]
    },
    {
-      "name":"glide",
+      "name":"Famo.us",
+      "url":"http://famo.us/",
+      "desc":"A JavaScript framework that helps you create smooth, complex UIs for any screen",
+      "category":["web","ui", "animation"]
+   },
+   {
+      "name":"Pixi.js",
+      "url":"http://www.pixijs.com/",
+      "desc":"Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback",
+      "category":["web","game", "webGL", "canvas", "graphic"]
+   },
+   {
+      "name":"Glide",
       "url":"https://github.com/bumptech/glide",
       "desc":"An image loading and caching library for Android focused on smooth scrolling",
       "category":["android","image"]
+   },
+   {
+      "name":"Fresco",
+      "url":"http://frescolib.org/",
+      "desc":"A powerful system for displaying images in Android applications. It takes care of image loading and display so you don't have to",
+      "category":["android","image"]
+   },
+   {
+      "name":"Dom Animator",
+      "url":"http://tholman.com/dom-animator/",
+      "desc":"A nifty javascript library to run animations, hidden in comment nodes, within the dom",
+      "category":["web"]
+   },
+   {
+      "name":"React Native",
+      "url":"http://facebook.github.io/react-native/",
+      "desc":"A framework for building native apps using React",
+      "category":["app","react", "native"]
    },
    {
       "name":"reapp",
@@ -120,7 +150,7 @@
       "category":[".net","web", "real-time"]
    },
    {
-      "name":"smooth-scroll",
+      "name":"Smooth-scroll",
       "url":"https://github.com/cferdinandi/smooth-scroll",
       "desc":"A simple vanilla JS script to animate scrolling to anchor links.",
       "category":["scroll","web"]
@@ -138,19 +168,19 @@
       "category":["android"]
    },
    {
-      "name":"parallax",
+      "name":"Parallax",
       "url":"http://matthew.wagerfield.com/parallax/",
       "desc":"Parallax Engine that reacts to the orientation of a smart device",
       "category":["web","mobile"]
    },
    {
-      "name":"odometer",
+      "name":"Odometer",
       "url":"http://github.hubspot.com/odometer/docs/welcome/",
       "desc":"Smoothly transitions numbers with ease.",
       "category":["web"]
    },
    {
-      "name":"shake.js",
+      "name":"Shake.js",
       "url":"http://alxgbsn.co.uk/shake.js/",
       "desc":"A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
       "category":["web","mobile"]
