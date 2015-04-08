@@ -6,6 +6,18 @@
       "category":["scroll","image"]
    },
    {
+      "name":"x-ray",
+      "url":"https://github.com/lapwinglabs/x-ray",
+      "desc":"The next web scraper. See through the <html> noise.",
+      "category":["web scraper","node.js"]
+   },
+   {
+      "name":"Osmosis",
+      "url":"https://github.com/rc0x03/node-osmosis",
+      "desc":"Web scraper for NodeJS",
+      "category":["web scraper","node.js"]
+   },
+   {
       "name":"glide",
       "url":"https://github.com/bumptech/glide",
       "desc":"An image loading and caching library for Android focused on smooth scrolling",
