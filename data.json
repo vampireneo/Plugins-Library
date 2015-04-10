@@ -72,6 +72,18 @@
       "category":["web","framework", "angularjs"]
    },
    {
+      "name":"Playground.js",
+      "url":"http://playgroundjs.com/",
+      "desc":"A game oriented javascript framework that gives you access to essentials like mouse, keyboard, sound and well designed architecture",
+      "category":["web", "game"]
+   },
+   {
+      "name":"cta.js",
+      "url":"http://kushagragour.in/lab/ctajs/",
+      "desc":"cta.js or \"Call to Animation\" is a light-weight performant library to animate your \"action-to-effect\" paths",
+      "category":["web", "animation"]
+   },
+   {
       "name":"Bacon.js",
       "url":"http://baconjs.github.io/",
       "desc":"A small functional reactive programming lib for JavaScript",
