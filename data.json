@@ -6,6 +6,18 @@
       "category":["scroll","image"]
    },
    {
+      "name":"CasperJS",
+      "url":"http://casperjs.org/",
+      "desc":"A navigation scripting & testing utility for PhantomJS and SlimerJS written in Javascript",
+      "category":["testing", "javascript"]
+   },
+   {
+      "name":"PhantomJS",
+      "url":"http://phantomjs.org/",
+      "desc":"A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG",
+      "category":["testing", "javascript"]
+   },
+   {
       "name":"x-ray",
       "url":"https://github.com/lapwinglabs/x-ray",
       "desc":"The next web scraper. See through the <html> noise.",
@@ -22,6 +34,12 @@
       "url":"http://famo.us/",
       "desc":"A JavaScript framework that helps you create smooth, complex UIs for any screen",
       "category":["web","ui", "animation"]
+   },
+   {
+      "name":"Babylon.js",
+      "url":"https://github.com/BabylonJS/Babylon.js",
+      "desc":"A complete JavaScript framework for building 3D games with HTML 5 and WebGL",
+      "category":["web","game", "webGL", "graphic", "3D", "javascript", "framework"]
    },
    {
       "name":"Pixi.js",
