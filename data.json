@@ -12,6 +12,12 @@
       "category":["testing", "javascript"]
    },
    {
+      "name":"Cheerio",
+      "url":"http://cheeriojs.github.io/cheerio/",
+      "desc":"Fast, flexible, and lean implementation of core jQuery designed specifically for the server",
+      "category":["html", "javascript"]
+   },
+   {
       "name":"PhantomJS",
       "url":"http://phantomjs.org/",
       "desc":"A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG",
