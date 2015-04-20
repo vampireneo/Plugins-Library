@@ -6,6 +6,24 @@
       "category":["scroll","image"]
    },
    {
+      "name":"Elasticsearch",
+      "url":"https://www.elastic.co/products/elasticsearch",
+      "desc":"Search & Analyze Data in Real Time",
+      "category":["search"]
+   },
+   {
+      "name":"RethinkDB",
+      "url":"http://www.rethinkdb.com/",
+      "desc":"The open-source database for the realtime web",
+      "category":["search", "realtime", "database"]
+   },
+   {
+      "name":"MongoDB",
+      "url":"https://www.mongodb.org/",
+      "desc":"MongoDB",
+      "category":["search", "database"]
+   },
+   {
       "name":"CasperJS",
       "url":"http://casperjs.org/",
       "desc":"A navigation scripting & testing utility for PhantomJS and SlimerJS written in Javascript",
