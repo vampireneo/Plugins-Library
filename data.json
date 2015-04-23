@@ -1,5 +1,17 @@
 [
    {
+      "name":"Chart.js",
+      "url":"http://www.chartjs.org/",
+      "desc":"Simple, clean and engaging charts for designers and developers",
+      "category":["chart", "web"]
+   },
+   {
+      "name":"RAW",
+      "url":"http://raw.densitydesign.org/",
+      "desc":"The missing link between spreadsheets and vector graphics",
+      "category":["chart", "graphic", "web"]
+   },
+   {
       "name":"Stampsy",
       "url":"http://stampsy.com/",
       "desc":"Stampsy helps you create beautiful photo stories, mood boards, visual essays and much more",
