@@ -1,5 +1,17 @@
 [
    {
+      "name":"Swagger",
+      "url":"http://swagger.io/",
+      "desc":"A simple yet powerful representation of your RESTful API",
+      "category":["api", "web"]
+   },
+   {
+      "name":"Clusterize.js",
+      "url":"http://nexts.github.io/Clusterize.js/",
+      "desc":"Tiny plugin to display large data sets easily",
+      "category":["ui", "web"]
+   },
+   {
       "name":"Chart.js",
       "url":"http://www.chartjs.org/",
       "desc":"Simple, clean and engaging charts for designers and developers",
