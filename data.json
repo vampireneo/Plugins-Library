@@ -1,272 +1,290 @@
 [
-   {
-      "name":"Swagger",
-      "url":"http://swagger.io/",
-      "desc":"A simple yet powerful representation of your RESTful API",
-      "category":["api", "web"]
-   },
-   {
-      "name":"Clusterize.js",
-      "url":"http://nexts.github.io/Clusterize.js/",
-      "desc":"Tiny plugin to display large data sets easily",
-      "category":["ui", "web"]
-   },
-   {
-      "name":"Chart.js",
-      "url":"http://www.chartjs.org/",
-      "desc":"Simple, clean and engaging charts for designers and developers",
-      "category":["chart", "web"]
-   },
-   {
-      "name":"RAW",
-      "url":"http://raw.densitydesign.org/",
-      "desc":"The missing link between spreadsheets and vector graphics",
-      "category":["chart", "graphic", "web"]
-   },
-   {
-      "name":"Stampsy",
-      "url":"http://stampsy.com/",
-      "desc":"Stampsy helps you create beautiful photo stories, mood boards, visual essays and much more",
-      "category":["scroll","image"]
-   },
-   {
-      "name":"Elasticsearch",
-      "url":"https://www.elastic.co/products/elasticsearch",
-      "desc":"Search & Analyze Data in Real Time",
-      "category":["search"]
-   },
-   {
-      "name":"RethinkDB",
-      "url":"http://www.rethinkdb.com/",
-      "desc":"The open-source database for the realtime web",
-      "category":["search", "realtime", "database"]
-   },
-   {
-      "name":"MongoDB",
-      "url":"https://www.mongodb.org/",
-      "desc":"MongoDB",
-      "category":["search", "database"]
-   },
-   {
-      "name":"CasperJS",
-      "url":"http://casperjs.org/",
-      "desc":"A navigation scripting & testing utility for PhantomJS and SlimerJS written in Javascript",
-      "category":["testing", "javascript"]
-   },
-   {
-      "name":"Cheerio",
-      "url":"http://cheeriojs.github.io/cheerio/",
-      "desc":"Fast, flexible, and lean implementation of core jQuery designed specifically for the server",
-      "category":["html", "javascript"]
-   },
-   {
-      "name":"PhantomJS",
-      "url":"http://phantomjs.org/",
-      "desc":"A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG",
-      "category":["testing", "javascript"]
-   },
-   {
-      "name":"x-ray",
-      "url":"https://github.com/lapwinglabs/x-ray",
-      "desc":"The next web scraper. See through the <html> noise.",
-      "category":["web scraper","node.js"]
-   },
-   {
-      "name":"Osmosis",
-      "url":"https://github.com/rc0x03/node-osmosis",
-      "desc":"Web scraper for NodeJS",
-      "category":["web scraper","node.js"]
-   },
-   {
-      "name":"Famo.us",
-      "url":"http://famo.us/",
-      "desc":"A JavaScript framework that helps you create smooth, complex UIs for any screen",
-      "category":["web","ui", "animation"]
-   },
-   {
-      "name":"Babylon.js",
-      "url":"https://github.com/BabylonJS/Babylon.js",
-      "desc":"A complete JavaScript framework for building 3D games with HTML 5 and WebGL",
-      "category":["web","game", "webGL", "graphic", "3D", "javascript", "framework"]
-   },
-   {
-      "name":"Pixi.js",
-      "url":"http://www.pixijs.com/",
-      "desc":"Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback",
-      "category":["web","game", "webGL", "canvas", "graphic"]
-   },
-   {
-      "name":"Glide",
-      "url":"https://github.com/bumptech/glide",
-      "desc":"An image loading and caching library for Android focused on smooth scrolling",
-      "category":["android","image"]
-   },
-   {
-      "name":"Fresco",
-      "url":"http://frescolib.org/",
-      "desc":"A powerful system for displaying images in Android applications. It takes care of image loading and display so you don't have to",
-      "category":["android","image"]
-   },
-   {
-      "name":"Dom Animator",
-      "url":"http://tholman.com/dom-animator/",
-      "desc":"A nifty javascript library to run animations, hidden in comment nodes, within the dom",
-      "category":["web"]
-   },
-   {
-      "name":"React Native",
-      "url":"http://facebook.github.io/react-native/",
-      "desc":"A framework for building native apps using React",
-      "category":["app","react", "native"]
-   },
-   {
-      "name":"reapp",
-      "url":"http://reapp.io/",
-      "desc":"An easier, faster way to build apps with React and JavaScript",
-      "category":["app","react","web"]
-   },
-   {
-      "name":"React",
-      "url":"http://facebook.github.io/react/",
-      "desc":"A JavaScript library for building user interfaces",
-      "category":["library","react","ui","web"]
-   },
-   {
-      "name":"AngularJS",
-      "url":"https://angularjs.org/",
-      "desc":"AngularJS is a toolset for building the framework most suited to your application development",
-      "category":["web","framework", "angularjs"]
-   },
-   {
-      "name":"Playground.js",
-      "url":"http://playgroundjs.com/",
-      "desc":"A game oriented javascript framework that gives you access to essentials like mouse, keyboard, sound and well designed architecture",
-      "category":["web", "game"]
-   },
-   {
-      "name":"cta.js",
-      "url":"http://kushagragour.in/lab/ctajs/",
-      "desc":"cta.js or \"Call to Animation\" is a light-weight performant library to animate your \"action-to-effect\" paths",
-      "category":["web", "animation"]
-   },
-   {
-      "name":"Bacon.js",
-      "url":"http://baconjs.github.io/",
-      "desc":"A small functional reactive programming lib for JavaScript",
-      "category":["reactive programming"]
-   },
-   {
-      "name":"RxJS",
-      "url":"http://reactive-extensions.github.io/RxJS/",
-      "desc":"The RxJS is a set of libraries for composing asynchronous and event-based programs using observable sequences and fluent query operators modeled after LINQ",
-      "category":["reactive programming"]
-   },
-   {
-      "name":"Bootstrap",
-      "url":"http://getbootstrap.com/",
-      "desc":"Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web",
-      "category":["framework", "web", "responsive"]
-   },
-   {
-      "name":"jQuery",
-      "url":"http://jquery.com/",
-      "desc":"jQuery is a fast, small, and feature-rich JavaScript library",
-      "category":["library", "web"]
-   },
-   {
-      "name":"D3.js",
-      "url":"http://d3js.org/",
-      "desc":"A JavaScript library for manipulating documents based on data",
-      "category":["chart"]
-   },
-   {
-      "name":"C3.js",
-      "url":"http://c3js.org/",
-      "desc":"D3-based reusable chart library",
-      "category":["chart"]
-   },
-   {
-      "name":"Epoch",
-      "url":"http://fastly.github.io/epoch/",
-      "desc":"A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations",
-      "category":["chart", "real-time"]
-   },
-   {
-      "name":"Ng-Epoch",
-      "url":"http://dainbrump.github.io/ng-epoch/",
-      "desc":"A set of directives wrapping the Epoch jQuery plugin. Install the directive and plugin, place a tag in your HTML, and feed it data",
-      "category":["chart", "real-time", "angularjs"]
-   },
-   {
-      "name":"NativeScript",
-      "url":"https://www.nativescript.org/",
-      "desc":"NativeScript enables developers to build native apps for iOS, Android and Windows Universal while sharing the application code across the platforms",
-      "category":["native", "app"]
-   },
-   {
-      "name":"n3-pie-chart",
-      "url":"http://n3-charts.github.io/pie-chart/",
-      "desc":"Built on top of D3.js and AngularJS, n3-charts.pie-chart directive creates beautiful pie charts, donut charts and gauges in AngularJS applications",
-      "category":["chart", "angularjs"]
-   },
-   {
-      "name":"n3-line-chart",
-      "url":"http://n3-charts.github.io/line-chart/",
-      "desc":"Built on top of D3.js and AngularJS, n3-line-chart creates beautiful charts in AngularJS applications",
-      "category":["chart", "angularjs"]
-   },
-   {
-      "name":"React.NET",
-      "url":"http://reactjs.net/",
-      "desc":".NET library for JSX compilation and server-side rendering of React components",
-      "category":[".net","web"]
-   },
-   {
-      "name":"SignalR",
-      "url":"http://signalr.net/",
-      "desc":"ASP.NET SignalR is a new library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications",
-      "category":[".net","web", "real-time"]
-   },
-   {
-      "name":"Smooth-scroll",
-      "url":"https://github.com/cferdinandi/smooth-scroll",
-      "desc":"A simple vanilla JS script to animate scrolling to anchor links.",
-      "category":["scroll","web"]
-   },
-   {
-      "name":"ScrollMagic",
-      "url":"http://janpaepke.github.io/ScrollMagic/",
-      "desc":"The javascript library for magical scroll interactions.",
-      "category":["scroll","web"]
-   },
-   {
-      "name":"CastCompanionLibrary-android",
-      "url":"https://github.com/googlecast/CastCompanionLibrary-android",
-      "desc":"CastCompanionLibrary-android is a library project to enable developers integrate Cast capabilities into their applications faster and easier.",
-      "category":["android"]
-   },
-   {
-      "name":"Parallax",
-      "url":"http://matthew.wagerfield.com/parallax/",
-      "desc":"Parallax Engine that reacts to the orientation of a smart device",
-      "category":["web","mobile"]
-   },
-   {
-      "name":"Odometer",
-      "url":"http://github.hubspot.com/odometer/docs/welcome/",
-      "desc":"Smoothly transitions numbers with ease.",
-      "category":["web"]
-   },
-   {
-      "name":"Shake.js",
-      "url":"http://alxgbsn.co.uk/shake.js/",
-      "desc":"A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
-      "category":["web","mobile"]
-   },
-   {
-      "name":"lumX",
-      "url":"http://ui.lumapps.com/",
-      "desc":"The first responsive front-end framework based on AngularJS & Google Material Design specifications.",
-      "category":["web","responsive", "framework","angularjs","ui"]
-   }
+  {
+     "name":"Sequence.js",
+     "url":"http://www.sequencejs.com/",
+     "desc":"The responsive CSS animation framework",
+     "category":["animation", "web", "css", "framework"]
+  },
+  {
+     "name":"Animate.css",
+     "url":"http://daneden.github.io/animate.css/",
+     "desc":"Just-add-water CSS animations",
+     "category":["animation", "web", "css"]
+  },
+  {
+     "name":"textillate.js",
+     "url":"https://jschr.github.io/textillate/",
+     "desc":"A simple plugin for CSS3 text animations",
+     "category":["animation", "web", "text", "css"]
+  },
+  {
+     "name":"Swagger",
+     "url":"http://swagger.io/",
+     "desc":"A simple yet powerful representation of your RESTful API",
+     "category":["api", "web"]
+  },
+  {
+     "name":"Clusterize.js",
+     "url":"http://nexts.github.io/Clusterize.js/",
+     "desc":"Tiny plugin to display large data sets easily",
+     "category":["ui", "web"]
+  },
+  {
+     "name":"Chart.js",
+     "url":"http://www.chartjs.org/",
+     "desc":"Simple, clean and engaging charts for designers and developers",
+     "category":["chart", "web"]
+  },
+  {
+     "name":"RAW",
+     "url":"http://raw.densitydesign.org/",
+     "desc":"The missing link between spreadsheets and vector graphics",
+     "category":["chart", "graphic", "web"]
+  },
+  {
+     "name":"Stampsy",
+     "url":"http://stampsy.com/",
+     "desc":"Stampsy helps you create beautiful photo stories, mood boards, visual essays and much more",
+     "category":["scroll","image"]
+  },
+  {
+     "name":"Elasticsearch",
+     "url":"https://www.elastic.co/products/elasticsearch",
+     "desc":"Search & Analyze Data in Real Time",
+     "category":["search"]
+  },
+  {
+     "name":"RethinkDB",
+     "url":"http://www.rethinkdb.com/",
+     "desc":"The open-source database for the realtime web",
+     "category":["search", "realtime", "database"]
+  },
+  {
+     "name":"MongoDB",
+     "url":"https://www.mongodb.org/",
+     "desc":"MongoDB",
+     "category":["search", "database"]
+  },
+  {
+     "name":"CasperJS",
+     "url":"http://casperjs.org/",
+     "desc":"A navigation scripting & testing utility for PhantomJS and SlimerJS written in Javascript",
+     "category":["testing", "javascript"]
+  },
+  {
+     "name":"Cheerio",
+     "url":"http://cheeriojs.github.io/cheerio/",
+     "desc":"Fast, flexible, and lean implementation of core jQuery designed specifically for the server",
+     "category":["html", "javascript"]
+  },
+  {
+     "name":"PhantomJS",
+     "url":"http://phantomjs.org/",
+     "desc":"A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG",
+     "category":["testing", "javascript"]
+  },
+  {
+     "name":"x-ray",
+     "url":"https://github.com/lapwinglabs/x-ray",
+     "desc":"The next web scraper. See through the <html> noise.",
+     "category":["web scraper","node.js"]
+  },
+  {
+     "name":"Osmosis",
+     "url":"https://github.com/rc0x03/node-osmosis",
+     "desc":"Web scraper for NodeJS",
+     "category":["web scraper","node.js"]
+  },
+  {
+     "name":"Famo.us",
+     "url":"http://famo.us/",
+     "desc":"A JavaScript framework that helps you create smooth, complex UIs for any screen",
+     "category":["web","ui", "animation"]
+  },
+  {
+     "name":"Babylon.js",
+     "url":"https://github.com/BabylonJS/Babylon.js",
+     "desc":"A complete JavaScript framework for building 3D games with HTML 5 and WebGL",
+     "category":["web","game", "webGL", "graphic", "3D", "javascript", "framework"]
+  },
+  {
+     "name":"Pixi.js",
+     "url":"http://www.pixijs.com/",
+     "desc":"Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback",
+     "category":["web","game", "webGL", "canvas", "graphic"]
+  },
+  {
+     "name":"Glide",
+     "url":"https://github.com/bumptech/glide",
+     "desc":"An image loading and caching library for Android focused on smooth scrolling",
+     "category":["android","image"]
+  },
+  {
+     "name":"Fresco",
+     "url":"http://frescolib.org/",
+     "desc":"A powerful system for displaying images in Android applications. It takes care of image loading and display so you don't have to",
+     "category":["android","image"]
+  },
+  {
+     "name":"Dom Animator",
+     "url":"http://tholman.com/dom-animator/",
+     "desc":"A nifty javascript library to run animations, hidden in comment nodes, within the dom",
+     "category":["web"]
+  },
+  {
+     "name":"React Native",
+     "url":"http://facebook.github.io/react-native/",
+     "desc":"A framework for building native apps using React",
+     "category":["app","react", "native"]
+  },
+  {
+     "name":"reapp",
+     "url":"http://reapp.io/",
+     "desc":"An easier, faster way to build apps with React and JavaScript",
+     "category":["app","react","web"]
+  },
+  {
+     "name":"React",
+     "url":"http://facebook.github.io/react/",
+     "desc":"A JavaScript library for building user interfaces",
+     "category":["library","react","ui","web"]
+  },
+  {
+     "name":"AngularJS",
+     "url":"https://angularjs.org/",
+     "desc":"AngularJS is a toolset for building the framework most suited to your application development",
+     "category":["web","framework", "angularjs"]
+  },
+  {
+     "name":"Playground.js",
+     "url":"http://playgroundjs.com/",
+     "desc":"A game oriented javascript framework that gives you access to essentials like mouse, keyboard, sound and well designed architecture",
+     "category":["web", "game"]
+  },
+  {
+     "name":"cta.js",
+     "url":"http://kushagragour.in/lab/ctajs/",
+     "desc":"cta.js or \"Call to Animation\" is a light-weight performant library to animate your \"action-to-effect\" paths",
+     "category":["web", "animation"]
+  },
+  {
+     "name":"Bacon.js",
+     "url":"http://baconjs.github.io/",
+     "desc":"A small functional reactive programming lib for JavaScript",
+     "category":["reactive programming"]
+  },
+  {
+     "name":"RxJS",
+     "url":"http://reactive-extensions.github.io/RxJS/",
+     "desc":"The RxJS is a set of libraries for composing asynchronous and event-based programs using observable sequences and fluent query operators modeled after LINQ",
+     "category":["reactive programming"]
+  },
+  {
+     "name":"Bootstrap",
+     "url":"http://getbootstrap.com/",
+     "desc":"Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web",
+     "category":["framework", "web", "responsive"]
+  },
+  {
+     "name":"jQuery",
+     "url":"http://jquery.com/",
+     "desc":"jQuery is a fast, small, and feature-rich JavaScript library",
+     "category":["library", "web"]
+  },
+  {
+     "name":"D3.js",
+     "url":"http://d3js.org/",
+     "desc":"A JavaScript library for manipulating documents based on data",
+     "category":["chart"]
+  },
+  {
+     "name":"C3.js",
+     "url":"http://c3js.org/",
+     "desc":"D3-based reusable chart library",
+     "category":["chart"]
+  },
+  {
+     "name":"Epoch",
+     "url":"http://fastly.github.io/epoch/",
+     "desc":"A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations",
+     "category":["chart", "real-time"]
+  },
+  {
+     "name":"Ng-Epoch",
+     "url":"http://dainbrump.github.io/ng-epoch/",
+     "desc":"A set of directives wrapping the Epoch jQuery plugin. Install the directive and plugin, place a tag in your HTML, and feed it data",
+     "category":["chart", "real-time", "angularjs"]
+  },
+  {
+     "name":"NativeScript",
+     "url":"https://www.nativescript.org/",
+     "desc":"NativeScript enables developers to build native apps for iOS, Android and Windows Universal while sharing the application code across the platforms",
+     "category":["native", "app"]
+  },
+  {
+     "name":"n3-pie-chart",
+     "url":"http://n3-charts.github.io/pie-chart/",
+     "desc":"Built on top of D3.js and AngularJS, n3-charts.pie-chart directive creates beautiful pie charts, donut charts and gauges in AngularJS applications",
+     "category":["chart", "angularjs"]
+  },
+  {
+     "name":"n3-line-chart",
+     "url":"http://n3-charts.github.io/line-chart/",
+     "desc":"Built on top of D3.js and AngularJS, n3-line-chart creates beautiful charts in AngularJS applications",
+     "category":["chart", "angularjs"]
+  },
+  {
+     "name":"React.NET",
+     "url":"http://reactjs.net/",
+     "desc":".NET library for JSX compilation and server-side rendering of React components",
+     "category":[".net","web"]
+  },
+  {
+     "name":"SignalR",
+     "url":"http://signalr.net/",
+     "desc":"ASP.NET SignalR is a new library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications",
+     "category":[".net","web", "real-time"]
+  },
+  {
+     "name":"Smooth-scroll",
+     "url":"https://github.com/cferdinandi/smooth-scroll",
+     "desc":"A simple vanilla JS script to animate scrolling to anchor links.",
+     "category":["scroll","web"]
+  },
+  {
+     "name":"ScrollMagic",
+     "url":"http://janpaepke.github.io/ScrollMagic/",
+     "desc":"The javascript library for magical scroll interactions.",
+     "category":["scroll","web"]
+  },
+  {
+     "name":"CastCompanionLibrary-android",
+     "url":"https://github.com/googlecast/CastCompanionLibrary-android",
+     "desc":"CastCompanionLibrary-android is a library project to enable developers integrate Cast capabilities into their applications faster and easier.",
+     "category":["android"]
+  },
+  {
+     "name":"Parallax",
+     "url":"http://matthew.wagerfield.com/parallax/",
+     "desc":"Parallax Engine that reacts to the orientation of a smart device",
+     "category":["web","mobile"]
+  },
+  {
+     "name":"Odometer",
+     "url":"http://github.hubspot.com/odometer/docs/welcome/",
+     "desc":"Smoothly transitions numbers with ease.",
+     "category":["web"]
+  },
+  {
+     "name":"Shake.js",
+     "url":"http://alxgbsn.co.uk/shake.js/",
+     "desc":"A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
+     "category":["web","mobile"]
+  },
+  {
+     "name":"lumX",
+     "url":"http://ui.lumapps.com/",
+     "desc":"The first responsive front-end framework based on AngularJS & Google Material Design specifications.",
+     "category":["web","responsive", "framework","angularjs","ui"]
+  }
 ]

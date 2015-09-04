@@ -6,8 +6,8 @@
     "Material Design",
     "Framework"
   ],
-  "homepage": "ui.lumapps.com",
-  "version": "0.3.24",
+  "homepage": "http://ui.lumapps.com",
+  "version": "0.3.82",
   "authors": [
     "LumApps"
   ],
@@ -45,20 +45,19 @@
     "velocity": "latest",
     "moment": "latest",
     "bourbon": "latest",
-    "mdi": "0.9.72-alpha"
+    "mdi": "latest"
   },
   "devDependencies": {
     "angular-route": "latest",
     "highlightjs": "latest"
   },
-  "_release": "0.3.24",
+  "_release": "0.3.82",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.24",
-    "commit": "8856e53d8ee4b96f4450c0f6250b21a7b5307f82"
+    "tag": "v0.3.82",
+    "commit": "5667101c3f1415d31f961b5f3ef11d3646140cbe"
   },
   "_source": "git://github.com/lumapps/lumX.git",
   "_target": "~0.3.24",
-  "_originalSource": "lumx",
-  "_direct": true
+  "_originalSource": "lumx"
 }

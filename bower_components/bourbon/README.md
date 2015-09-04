@@ -15,6 +15,9 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
 - **[Changelog](https://github.com/thoughtbot/bourbon/releases)**
 - **[Issues & Bugs](https://github.com/thoughtbot/bourbon/issues)**
 
+Follow the [@bourbonsass](https://twitter.com/bourbonsass) Twitter account
+for updates.
+
 ## Requirements
 
 - [Sass](https://github.com/sass/sass) 3.4+ or [LibSass](https://github.com/sass/libsass) 3.1+
@@ -71,7 +74,7 @@ For command line help, visit our wiki page on Bourbon’s [command line interfac
   mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
   ```
 
-4. Delete _all_ Sprockets directives in `application.scss` (`require`, `require_tree` and `require_self`) and use Sass’s native `@import` instead.
+4. Delete _all_ Sprockets directives in `application.scss` (`require`, `require_tree` and `require_self`) and use Sass’s native `@import` instead. ([why?](http://pivotallabs.com/structure-your-sass-files-with-import))
 
 5. Import Bourbon at the beginning of `application.scss`. All additional stylesheets should be imported below Bourbon:
 
@@ -116,12 +119,22 @@ For command line help, visit our wiki page on Bourbon’s [command line interfac
 
 Also check out [Proteus](https://github.com/thoughtbot/proteus), a collection of useful starter kits to help you prototype faster. Each kit comes with Bourbon, Neat and Bitters out-of-the-box.
 
-## Credits
-
-[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
-
-Bourbon is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Tweet your questions or suggestions to [@bourbonsass](https://twitter.com/bourbonsass) and while you’re at it follow us too.
-
 ## License
 
-Copyright © 2011–2015 [thoughtbot, inc](http://thoughtbot.com). Bourbon is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+Copyright © 2011–2015 [thoughtbot, inc](http://thoughtbot.com).
+Bourbon is free software,
+and may be redistributed under the terms specified in the [license](LICENSE.md).
+
+## About thoughtbot
+
+[<img src="http://thoughtbot.github.io/images/signature.svg" width="250" alt="thoughtbot logo">][hire]
+
+Bourbon is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+
+We love open source software!
+See [our other projects][community] or
+[hire us][hire] to design, develop, and grow your product.
+
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github

@@ -6,7 +6,7 @@
     "Material Design",
     "Framework"
   ],
-  "homepage": "ui.lumapps.com",
+  "homepage": "http://ui.lumapps.com",
   "version": "0.0.0",
   "authors": [
     "LumApps"
@@ -45,7 +45,7 @@
     "velocity": "latest",
     "moment": "latest",
     "bourbon": "latest",
-    "mdi": "0.9.72-alpha"
+    "mdi": "latest"
   },
   "devDependencies": {
     "angular-route": "latest",
